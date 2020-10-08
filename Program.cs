@@ -11,12 +11,15 @@ namespace UltimaParcela
             DateTime Data = DateTime.Now;
             DateTime ValorPar;
 
-            Console.Write("Valor inteiro= ");
+            //Valor Total da Conta//
+            Console.Write("Valor = ");
             valorInt = Convert.ToDouble(Console.ReadLine());
 
-            Console.Write("Quantidade de Parcelas= ");
+            //Quantas Parcelas?//
+            Console.Write("Quantidade de Parcelas = ");
             Parcelas = Convert.ToDouble(Console.ReadLine());
 
+            //Divisão de Valor//
             Conta = valorInt / Parcelas;
 
             ValorPar = Data.AddMonths(8);
